@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px ;
+}
+
+.child {
+    box-sizing: content-box;
+    width: 150px;
+    height: 100px; 
+    background-color: red; 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
